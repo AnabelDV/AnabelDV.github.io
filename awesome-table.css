@@ -1,10 +1,9 @@
-/* Make GPT output in Awesome Table easier to read */
-.at-card-cell {
+/* Softer card formatting fallback */
+.cards td {
   white-space: pre-wrap;
   font-size: 16px;
   line-height: 1.6;
   padding: 12px;
-  border-radius: 12px;
-  background-color: #fdfdfd;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  background-color: #fcfcfc;
+  border-radius: 8px;
 }
